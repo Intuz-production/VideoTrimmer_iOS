@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B8CE7D32008E1DF00CC6D21 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8CE7BC2008E1DF00CC6D21 /* AppDelegate.m */; };
+		5B8CE7D42008E1DF00CC6D21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B8CE7BD2008E1DF00CC6D21 /* Assets.xcassets */; };
+		5B8CE7D52008E1DF00CC6D21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B8CE7BE2008E1DF00CC6D21 /* LaunchScreen.storyboard */; };
+		5B8CE7D62008E1DF00CC6D21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B8CE7C02008E1DF00CC6D21 /* Main.storyboard */; };
+		5B8CE7D82008E1DF00CC6D21 /* ICGThumbView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8CE7C62008E1DF00CC6D21 /* ICGThumbView.m */; };
+		5B8CE7D92008E1DF00CC6D21 /* ICGVideoTrimmerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8CE7C92008E1DF00CC6D21 /* ICGVideoTrimmerView.m */; };
+		5B8CE7DA2008E1DF00CC6D21 /* INTVideoTrimViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8CE7CB2008E1DF00CC6D21 /* INTVideoTrimViewController.m */; };
+		5B8CE7DB2008E1DF00CC6D21 /* INTVideoTrimViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B8CE7CC2008E1DF00CC6D21 /* INTVideoTrimViewController.xib */; };
+		5B8CE7DD2008E1DF00CC6D21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8CE7D02008E1DF00CC6D21 /* main.m */; };
+		5B8CE7DE2008E1DF00CC6D21 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8CE7D22008E1DF00CC6D21 /* ViewController.m */; };
+		5BE40158200A0A2F00C416FA /* INTVideoPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE40157200A0A2F00C416FA /* INTVideoPlayerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B8CE7BB2008E1DF00CC6D21 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5B8CE7BC2008E1DF00CC6D21 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5B8CE7BD2008E1DF00CC6D21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B8CE7BF2008E1DF00CC6D21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B8CE7C12008E1DF00CC6D21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B8CE7C22008E1DF00CC6D21 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B8CE7C52008E1DF00CC6D21 /* ICGThumbView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICGThumbView.h; sourceTree = "<group>"; };
+		5B8CE7C62008E1DF00CC6D21 /* ICGThumbView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICGThumbView.m; sourceTree = "<group>"; };
+		5B8CE7C72008E1DF00CC6D21 /* ICGVideoTrimmer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICGVideoTrimmer.h; sourceTree = "<group>"; };
+		5B8CE7C82008E1DF00CC6D21 /* ICGVideoTrimmerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICGVideoTrimmerView.h; sourceTree = "<group>"; };
+		5B8CE7C92008E1DF00CC6D21 /* ICGVideoTrimmerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICGVideoTrimmerView.m; sourceTree = "<group>"; };
+		5B8CE7CA2008E1DF00CC6D21 /* INTVideoTrimViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INTVideoTrimViewController.h; sourceTree = "<group>"; };
+		5B8CE7CB2008E1DF00CC6D21 /* INTVideoTrimViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INTVideoTrimViewController.m; sourceTree = "<group>"; };
+		5B8CE7CC2008E1DF00CC6D21 /* INTVideoTrimViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = INTVideoTrimViewController.xib; sourceTree = "<group>"; };
+		5B8CE7D02008E1DF00CC6D21 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B8CE7D12008E1DF00CC6D21 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5B8CE7D22008E1DF00CC6D21 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5BCF54E01EF7CEE1003B7A92 /* VideoTrimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoTrimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BE40156200A0A2F00C416FA /* INTVideoPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INTVideoPlayerView.h; sourceTree = "<group>"; };
+		5BE40157200A0A2F00C416FA /* INTVideoPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INTVideoPlayerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BCF54DD1EF7CEE1003B7A92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B8CE7BA2008E1DF00CC6D21 /* VideoTrimer */ = {
+			isa = PBXGroup;
+			children = (
+				5B8CE7BB2008E1DF00CC6D21 /* AppDelegate.h */,
+				5B8CE7BC2008E1DF00CC6D21 /* AppDelegate.m */,
+				5B8CE7BD2008E1DF00CC6D21 /* Assets.xcassets */,
+				5B8CE7BE2008E1DF00CC6D21 /* LaunchScreen.storyboard */,
+				5B8CE7C02008E1DF00CC6D21 /* Main.storyboard */,
+				5B8CE7C22008E1DF00CC6D21 /* Info.plist */,
+				5B8CE7C32008E1DF00CC6D21 /* Library */,
+				5B8CE7D02008E1DF00CC6D21 /* main.m */,
+				5B8CE7D12008E1DF00CC6D21 /* ViewController.h */,
+				5B8CE7D22008E1DF00CC6D21 /* ViewController.m */,
+			);
+			path = VideoTrimer;
+			sourceTree = "<group>";
+		};
+		5B8CE7C32008E1DF00CC6D21 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				5B8CE7C42008E1DF00CC6D21 /* ICGVideoTrimmer */,
+				5BE40156200A0A2F00C416FA /* INTVideoPlayerView.h */,
+				5BE40157200A0A2F00C416FA /* INTVideoPlayerView.m */,
+				5B8CE7CA2008E1DF00CC6D21 /* INTVideoTrimViewController.h */,
+				5B8CE7CB2008E1DF00CC6D21 /* INTVideoTrimViewController.m */,
+				5B8CE7CC2008E1DF00CC6D21 /* INTVideoTrimViewController.xib */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		5B8CE7C42008E1DF00CC6D21 /* ICGVideoTrimmer */ = {
+			isa = PBXGroup;
+			children = (
+				5B8CE7C52008E1DF00CC6D21 /* ICGThumbView.h */,
+				5B8CE7C62008E1DF00CC6D21 /* ICGThumbView.m */,
+				5B8CE7C72008E1DF00CC6D21 /* ICGVideoTrimmer.h */,
+				5B8CE7C82008E1DF00CC6D21 /* ICGVideoTrimmerView.h */,
+				5B8CE7C92008E1DF00CC6D21 /* ICGVideoTrimmerView.m */,
+			);
+			path = ICGVideoTrimmer;
+			sourceTree = "<group>";
+		};
+		5BCF54D71EF7CEE1003B7A92 = {
+			isa = PBXGroup;
+			children = (
+				5B8CE7BA2008E1DF00CC6D21 /* VideoTrimer */,
+				5BCF54E11EF7CEE1003B7A92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BCF54E11EF7CEE1003B7A92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BCF54E01EF7CEE1003B7A92 /* VideoTrimer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BCF54DF1EF7CEE1003B7A92 /* VideoTrimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BCF54F71EF7CEE1003B7A92 /* Build configuration list for PBXNativeTarget "VideoTrimer" */;
+			buildPhases = (
+				5BCF54DC1EF7CEE1003B7A92 /* Sources */,
+				5BCF54DD1EF7CEE1003B7A92 /* Frameworks */,
+				5BCF54DE1EF7CEE1003B7A92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoTrimer;
+			productName = VideoEditor;
+			productReference = 5BCF54E01EF7CEE1003B7A92 /* VideoTrimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BCF54D81EF7CEE1003B7A92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Martin;
+				TargetAttributes = {
+					5BCF54DF1EF7CEE1003B7A92 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5BCF54DB1EF7CEE1003B7A92 /* Build configuration list for PBXProject "VideoTrimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BCF54D71EF7CEE1003B7A92;
+			productRefGroup = 5BCF54E11EF7CEE1003B7A92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BCF54DF1EF7CEE1003B7A92 /* VideoTrimer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BCF54DE1EF7CEE1003B7A92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B8CE7DB2008E1DF00CC6D21 /* INTVideoTrimViewController.xib in Resources */,
+				5B8CE7D62008E1DF00CC6D21 /* Main.storyboard in Resources */,
+				5B8CE7D42008E1DF00CC6D21 /* Assets.xcassets in Resources */,
+				5B8CE7D52008E1DF00CC6D21 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BCF54DC1EF7CEE1003B7A92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B8CE7DE2008E1DF00CC6D21 /* ViewController.m in Sources */,
+				5BE40158200A0A2F00C416FA /* INTVideoPlayerView.m in Sources */,
+				5B8CE7D32008E1DF00CC6D21 /* AppDelegate.m in Sources */,
+				5B8CE7D82008E1DF00CC6D21 /* ICGThumbView.m in Sources */,
+				5B8CE7DA2008E1DF00CC6D21 /* INTVideoTrimViewController.m in Sources */,
+				5B8CE7DD2008E1DF00CC6D21 /* main.m in Sources */,
+				5B8CE7D92008E1DF00CC6D21 /* ICGVideoTrimmerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5B8CE7BE2008E1DF00CC6D21 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B8CE7BF2008E1DF00CC6D21 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5B8CE7C02008E1DF00CC6D21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B8CE7C12008E1DF00CC6D21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BCF54F51EF7CEE1003B7A92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5BCF54F61EF7CEE1003B7A92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BCF54F81EF7CEE1003B7A92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VideoTrimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VideoTrimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5BCF54F91EF7CEE1003B7A92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VideoTrimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VideoTrimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BCF54DB1EF7CEE1003B7A92 /* Build configuration list for PBXProject "VideoTrimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BCF54F51EF7CEE1003B7A92 /* Debug */,
+				5BCF54F61EF7CEE1003B7A92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BCF54F71EF7CEE1003B7A92 /* Build configuration list for PBXNativeTarget "VideoTrimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BCF54F81EF7CEE1003B7A92 /* Debug */,
+				5BCF54F91EF7CEE1003B7A92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BCF54D81EF7CEE1003B7A92 /* Project object */;
+}
